@@ -1,0 +1,210 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$font_type0: 300 18.000001907348633px/1.2 "Ubuntu", Helvetica, Arial, serif;
+$font_type1: 700 18.000001907348633px/1.2 "Ubuntu", Helvetica, Arial, serif;
+
+.section1_layout {
+  position: relative;
+  height: min-content;
+}
+.section1 {
+  @include flex-column;
+}
+.group {
+  @include flex-column;
+}
+.group_layout3 {
+  position: relative;
+  height: 1620px;
+}
+.flex {
+  @include flex-column;
+  background-color: rgb(242, 234, 229);
+}
+.flex_layout {
+  position: absolute;
+  overflow: hidden;
+  top: 0px;
+  height: min-content;
+  bottom: 803px;
+  left: 0px;
+  right: 0px;
+}
+.content_box {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.643);
+}
+.content_box_layout {
+  position: relative;
+  height: min-content;
+}
+.content_box_item {
+  @include flex-column;
+  position: relative;
+  flex: 1 1 105px;
+}
+.txt {
+  @include h-center-content;
+  font: $font_type0;
+  color: rgb(39, 19, 1);
+  text-align: center;
+  letter-spacing: 0px;
+  opacity: 0.69;
+}
+.txt_layout {
+  position: relative;
+  height: min-content;
+  margin: 23px 0px 13px 173px;
+}
+.content_box_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 16px;
+}
+.content_box_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 1 1 324px;
+}
+.txt1 {
+  @include h-center-content;
+  font: $font_type0;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  letter-spacing: 0px;
+  opacity: 0.69;
+}
+.txt1_layout {
+  position: relative;
+  height: min-content;
+  margin: 23px 0px 0px;
+}
+.content_box_spacer1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 20px;
+}
+.content_box_item2 {
+  @include flex-column;
+  position: relative;
+  flex: 1 1 163px;
+}
+.txt2 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: $font_type0;
+  color: rgb(39, 19, 1);
+  text-align: center;
+  letter-spacing: 0px;
+  white-space: pre-wrap;
+}
+.txt2_box {
+  @include h-center-content;
+  opacity: 0.69;
+}
+.txt2_box_layout {
+  position: relative;
+  height: min-content;
+  margin: 23px 0px 15px;
+}
+.content_box_spacer2 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 30px;
+}
+.content_box_item3 {
+  @include flex-column;
+  position: relative;
+  flex: 1 1 354px;
+}
+.txt3 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: $font_type0;
+  color: rgb(39, 19, 1);
+  text-align: center;
+  letter-spacing: 0px;
+  white-space: pre-wrap;
+}
+.txt3_box {
+  @include h-center-content;
+  opacity: 0.69;
+}
+.txt3_box_layout {
+  position: relative;
+  height: min-content;
+  margin: 23px 0px 10px;
+}
+.content_box_spacer3 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 20px;
+}
+.content_box_item4 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 235px;
+}
+.cover_block {
+  @include flex-column;
+  background-color: rgb(46, 97, 100);
+  border-radius: 21.38px 21.38px 21.38px 21.38px;
+}
+.cover_block_layout {
+  position: relative;
+  height: min-content;
+  margin: 15px 172px 13px 0px;
+}
+.txt4 {
+  @include h-center-content;
+  font: $font_type1;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  letter-spacing: 0px;
+}
+.txt4_layout {
+  position: relative;
+  height: min-content;
+  margin: 11px 12px 11px 15px;
+}
+.content_box_item5 {
+  @include flex-column;
+  position: relative;
+}
+.group_layout2 {
+  position: relative;
+  height: 659px;
+  width: 96.11%;
+  margin: 87px 0.42% 0px 3.47%;
+}
+.group2 {
+  @include flex-column;
+  background-color: rgb(242, 234, 229);
+}
+.group2_layout {
+  position: absolute;
+  overflow: hidden;
+  top: 0px;
+  height: 810px;
+  left: 0px;
+  right: 0px;
+  margin: 810px 0px 0px;
+}
+.content_box_item6 {
+  @include flex-column;
+  position: relative;
+}
+.group4 {
+  @include flex-column;
+  background-color: rgb(242, 234, 229);
+}
+.group4_layout {
+  position: relative;
+  overflow: hidden;
+  height: 810px;
+}
